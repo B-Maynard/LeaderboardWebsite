@@ -1,0 +1,4 @@
+Website/secret.json
+API/utils/credentials.json
+API/common/config/env.config.js
+node_modules/

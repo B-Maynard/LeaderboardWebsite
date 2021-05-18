@@ -1,0 +1,88 @@
+/* ==========================================================================
+   #STYLES
+   ========================================================================== */
+
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit; /* [1] */
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* FONTS
+    ========================================================================== */
+
+body {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif; /* [2] */
+}
+
+
+
+/* Header
+    ========================================================================== */
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8em;
+  background-color: #525286;
+  color: #FFFFFF;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  background-color: rgba(50, 149, 168, .7);
+  padding: 1.2em;
+}
+
+.footer {
+  position: absolute;
+  bottom: 1.2em;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+/* Signin
+    ========================================================================== */
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+    
